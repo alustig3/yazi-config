@@ -1,0 +1,10 @@
+[opener]
+edit = [
+	{ run = 'code "$@"', block = true, for = "unix" },
+]
+
+[open]
+prepend_rules = [
+	{ name = "*.xlsx", use = "open" },
+	{ name = "*.html", use = "open" },
+]
